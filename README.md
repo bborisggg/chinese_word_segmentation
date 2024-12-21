@@ -9,4 +9,4 @@ In order to train our own model we use the data presented in https://github.com/
 
 ![image](https://camo.githubusercontent.com/3bc414c4846f0d6127c2bdbfa0b12d3a1d59dd9fc583820436e2ad885d943366/687474703a2f2f7778332e73696e61696d672e636e2f6c617267652f303036466d6a6d636c7931666d366a74686133746d6a33313872306c343078392e6a7067)
 
-
+First approach that we test is a simple LSTM model and a Bidirectional LSTM model.
