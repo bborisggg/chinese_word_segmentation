@@ -19,4 +19,15 @@ We compare three approaches:
 
 The last model has been shown to deliver the best results in CWS and our test support this conclusion.
 
+Results on ctb-dataset
+
+
+| Model         | Accuracy Test | Precision Test | Recall Test | F1-score Test |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Bi-LSTM       | 0.9452  | 0.9334 | 0.9374 | 0.9354
+| BERT          | 0.9237  | 0.9047 | 0.9137 | 0.9092 |
+| Bi-LSTM BERT CRF|  0.9569 | 0.9498 | 0.9506 | 0.9502 |
+
+
+
 
