@@ -19,7 +19,7 @@ We compare three approaches:
 
 The last model has been shown to deliver the best results in CWS and our test support this conclusion.
 
-Results on ctb-dataset
+Results on ctb-dataset (each model has been trained for 10 epochs):
 
 
 | Model         | Accuracy Test | Precision Test | Recall Test | F1-score Test |
@@ -30,4 +30,15 @@ Results on ctb-dataset
 
 
 
+Now a small demonstration of model performance.
 
+Suppose we have a sentence on Chinese: 
+
+我喜欢编写自然语言处理机器学习任务
+
+Bi-LSTM BERT CRF model produces the following word segmentation:
+
+|Position | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
+| ------- | - | - | - | - | - | - | - | - | - |
+|Chinese | 我 | 喜欢 | 编写| 自然 | 语言 | 处理 | 机器 | 学习| 任务|
+|English | I | enjoy | writing | natural | language | processing | machine | learning| tasks|
